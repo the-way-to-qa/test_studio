@@ -217,8 +217,20 @@
     "DefaultDesktopApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "bba2f367-7558-46d4-9117-059e7f40ae1c",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/the-way-to-qa/test_studio.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/the-way-to-qa/test_studio.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
